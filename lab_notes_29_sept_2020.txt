@@ -1,0 +1,58 @@
+##First experiment :
+Simple code (Testprogram) just reading the output of the solar sensor and displaying it.
+
+Material : Solar sensor, light, current to voltage board, arduino
+
+Objectives ; 
+1 Does current to voltage board works ?
+2 Does our simple code works ?
+
+1 : Value range is really small and all pins seems to have to same output (800 - 950), high values when all lights were off.
+2 : Yes, We're able to print output from the sensor to screen. Most of the time was lost trying to open serial monitor (Up Right corner)
+
+
+
+WITH LIGHT ON, incidence angle we estimate to be alpha = -30 beta=0 
+16:06:02.316 -> Q1 = 880
+16:06:02.316 -> Q2 = 873
+16:06:02.362 -> Q3 = 875
+16:06:02.362 -> Q4 = 930
+16:06:02.362 -> _________
+16:06:03.310 -> Q1 = 881
+16:06:03.359 -> Q2 = 872
+16:06:03.359 -> Q3 = 876
+16:06:03.359 -> Q4 = 931
+16:06:03.359 -> _________
+16:06:04.314 -> Q1 = 881
+16:06:04.360 -> Q2 = 874
+16:06:04.360 -> Q3 = 874
+16:06:04.360 -> Q4 = 935
+16:06:04.360 -> _________
+
+WITH LIGHT ON, incidence angle we estimate to be alpha = 0 beta=-30 
+16:08:11.606 -> _________
+16:08:12.530 -> Q1 = 880
+16:08:12.563 -> Q2 = 883
+16:08:12.563 -> Q3 = 873
+16:08:12.563 -> Q4 = 929
+16:08:12.605 -> _________
+16:08:13.537 -> Q1 = 881
+16:08:13.537 -> Q2 = 883
+16:08:13.571 -> Q3 = 874
+16:08:13.571 -> Q4 = 927
+16:08:13.571 -> _________
+
+WITH LIGHTS OFF AND PHOTOSENSOR COVERED
+16:09:57.718 -> Q1 = 917
+16:09:57.718 -> Q2 = 916
+16:09:57.764 -> Q3 = 919
+16:09:57.764 -> Q4 = 953
+16:09:57.764 -> _________
+16:09:58.744 -> Q1 = 917
+16:09:58.744 -> Q2 = 916
+16:09:58.744 -> Q3 = 918
+16:09:58.744 -> Q4 = 940
+16:09:58.779 -> _________
+
+
+

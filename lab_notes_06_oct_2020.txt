@@ -1,0 +1,23 @@
+LAB NOTES
+06 october 2020
+
+Materials: Solar sensor, light source, current to voltage converter, arduino
+Personel: Salvatore Ferrone, Julien Bouet
+
+Objectives:
+1. Update program to return angles DONE
+2. Do the angles make sense? NO
+
+Notes:
+Program returns angles. Angles are not correct. We neeed to verify converter.
+We ask yoshimi to look at this. If we are to trouble shoot, we will tabulate data
+from the voltmeter and cross compare with converter + arduino.
+
+We can live plot with python, which we will investigate
+help : https://create.arduino.cc/projecthub/highvoltages/arduino-real-time-plotting-with-python-5a6a5a
+code : https://github.com/HighVoltages/Python-arduino-realtime-graph/blob/master/Python%20code/realtime.py
+
+Trouble shooting converter idea :
+Send a known current and measure voltage output, repeat.
+Plot the result to have an idea of the conversion curve, which
+could be reversed to obtain current input just by measuring voltage output
